@@ -1,17 +1,27 @@
-import React from 'react';
-import Layout from './components/Layout';
-import { Header } from './components/Header';
-import { Dashboard } from './components/Dashboard';
+import './style.css';
+// import Header from './Header';
+import Halfintro from './components/HalfIntro';
+import About from './components/About';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import NavBar from './components/Navbar';
+import Skill from './components/Skill';
+import Header from './components/Header';
 
-function App() {
+export default function App() {
 	return (
-		<>
-			<Layout>
-				<Header />
-				<Dashboard />
-			</Layout>
-		</>
+		<div className='App'>
+			<NavBar />
+			<Header />
+			{/* <Halfintro /> */}
+			<About />
+			<Skill />
+			<Projects />
+			<Experience />
+			<Contact />
+			<Footer />
+		</div>
 	);
 }
-
-export default App;
