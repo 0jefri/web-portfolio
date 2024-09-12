@@ -1,7 +1,7 @@
 import React from 'react';
-import FacebookIcon from '@material-ui/icons/Facebook';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
-import TwitterIcon from '@material-ui/icons/Twitter';
+// import TwitterIcon from '@material-ui/icons/Twitter';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import { GitHub } from '@material-ui/icons';
 

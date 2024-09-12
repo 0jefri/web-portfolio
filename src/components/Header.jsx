@@ -1,5 +1,5 @@
 import React from 'react';
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const Header = () => {
 	return (

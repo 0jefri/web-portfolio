@@ -1,7 +1,7 @@
 import React from 'react';
-import LocationOnIcon from '@material-ui/icons/LocationOn';
-import MailIcon from '@material-ui/icons/Mail';
-import CallIcon from '@material-ui/icons/Call';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import MailIcon from '@mui/icons-material/Mail';
+import CallIcon from '@mui/icons-material/Call';
 // import SimpleMap from './SimpleMap';
 
 const Contact = () => {
